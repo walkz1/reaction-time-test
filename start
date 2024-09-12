@@ -5,3 +5,10 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/walkz1/reaction-time-test.git
 git push -u origin main
+import random
+import time
+rnd = (1, 5)
+tme = random.choice(rnd)
+print("hi")
+time.sleep(tme)
+print("bye")
